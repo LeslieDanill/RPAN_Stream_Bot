@@ -42,3 +42,18 @@ print(data)
     #Streamer Custom Commands
     #Opted-in notification users
     #Streamer stats
+
+#Functionality Notes:
+"""
+1. Custom Commands
+    - There are some built-in commands
+    - Streamers can set up their own custom commands by running a built-in command !add !mycommand text for the command (!remove !mycommand) (only streamers themselves can add custom commands and all customs are by default open to all viewers)
+    - All comments can run commands (depending on permissions / is the streamer or mod or viewer)
+2. Moderation (Streamer-Level)
+    - streamer or their mods can use built-in commands to:
+        - !ban / !timeout
+3. Moderation (Subreddit-Level)
+    - If a viewer has been banned from >=3 streamers content, then issue a subreddit-level ban (this is only on our subreddit RPRAN)
+4. Notifications (Opt-In per viewer) 
+    - built-in command where anyone can opt-in to get going-live notifications for the streamer
+"""
